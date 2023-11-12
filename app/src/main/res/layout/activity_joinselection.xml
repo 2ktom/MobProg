@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".joinselection"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/joinTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/joinTitle"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="170sp"/>
+    <TextView
+        android:id="@+id/mentorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mentor"
+        android:textColor="@color/white"
+        android:layout_below="@id/joinTxt"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="100sp"/>
+
+    <TextView
+        android:id="@+id/menteeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/joinTxt"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="10sp"
+        android:layout_toEndOf="@+id/mentorTitle"
+        android:text="@string/mentee"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imgMentor"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/mentorTitle"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/mentor_logo"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/imgMentee"
+        android:layout_width="wrap_content"
+        android:layout_height="116sp"
+        android:layout_below="@+id/menteeTitle"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45sp"
+        android:paddingBottom="5sp"
+        android:src="@drawable/mentee_logo"
+        android:background="@android:color/transparent"
+        />
+
+</RelativeLayout>

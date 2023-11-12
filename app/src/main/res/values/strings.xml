@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mentoree_filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel fringilla ligula, nec sagittis metus. Suspendisse eu nulla mi. Proin feugiat justo et leo cursus finibus. In id rhoncus dolor, a maximus magna. Vestibulum porta magna nec diam euismod, eget posuere nisi suscipit. Vestibulum ornare ullamcorper ipsum. Donec fermentum odio.</string>
+    <string name="joinTitle">
+        Join as:
+    </string>
+    <string name="mentor">
+        Mentor
+    </string>
+    <string name="mentee">
+        Mentee
+    </string>
+</resources>
